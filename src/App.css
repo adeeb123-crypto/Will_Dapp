@@ -1,6 +1,150 @@
 .App {
+   /* background-image: linear-gradient(to right,#380036, #0CBABA); */
+  
+   background-color: black;
+   font-family: 'Roboto Mono', monospace;
   text-align: center;
+  font-weight: 100;
+  overflow: visible;
+  height: 730px;
+  padding-top: 200px;
+  /* overflow-y: hidden; */
+
 }
+
+/* @media screen and (min-width: 80px) {
+  .App {
+    margin: 1em 2em;
+  }
+} */
+
+
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .App {
+  background-color: black;
+  font-family: 'Roboto Mono', monospace;
+   display: flex;
+   align-items: center;
+   font-weight: 100;
+   overflow: scroll;
+   overflow-y: hidden;
+   width:max-content
+ 
+ }
+
+ .App-header {
+ 
+  min-height: 50px;
+  width: 100vh;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #f5b921;
+}
+
+.align1{
+  height: 10px;
+  width: 10px;
+}
+
+.glassbg1{
+  height: 10px;
+  width: 10px;
+}
+
+
+}
+
+::-webkit-scrollbar {
+  width: 0;  
+  background: transparent; 
+}
+
+
+.sidebyside{
+  display:inline-block;
+  float: none;
+  
+
+  margin-top: 0px;
+
+}
+
+.sidebyside1{
+  display:flex;
+  float: none;
+  
+
+  margin-top: 0px;
+
+}
+.align1{
+  
+ align-items: center;
+ height: 0px;
+ width: 0px;
+ border-radius: 60px;
+ background-color: transparent;
+ margin-top: -150px;
+ margin-bottom: 300px;
+ margin-right: 550px;
+  
+}
+.align2{
+
+  align-items: center;
+  padding-top: 0px;
+  height: 0px;
+  width: 0px;
+  border-radius: 60px;
+  background-color: transparent;
+  margin-bottom: 550px;
+  margin-right: 600px;
+   
+ }
+
+ .align3{
+
+  align-items: center;
+  padding-top: 335px;
+  height: 0px;
+  width: 0px;
+  border-radius: 60px;
+  background-color: transparent;
+  margin-bottom: 300px;
+  margin-right: 550px;
+   
+ }
+
+ .align4{
+
+  align-items: center;
+  padding-top: 20px;
+  height: 0px;
+  width: 0px;
+  border-radius: 60px;
+  background-color: transparent;
+  margin-bottom: 300px;
+  margin-right: 550px;
+   
+ }
+
+ .align5{
+
+  align-items: center;
+  padding-top: 20px;
+  height: 0px;
+  width: 0px;
+  border-radius: 60px;
+  background-color: transparent;
+  margin-bottom: 490px;
+  margin-right: 550px;
+  padding-right: 110px;
+   
+ }
 
 .App-logo {
   height: 40vmin;
@@ -12,21 +156,281 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+ 
+
+ .glassbg1{
+  display: flex;
+  align-items: center;
+  height: 500px;
+  width: 620px;
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 60px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  border: none;
+  display: inline;
+  float: left;
+} 
+
+.glassbg2{
+  
+  height: 600px;
+  width: 620px;
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 60px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  border: none;
+  display: inline;
+  float: left;
+} 
+
+.glassbg3{
+  
+  height: 280px;
+  width: 620px;
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 60px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  border: none;
+  display: inline;
+  float: left;
+} 
+
+.glassbg4{
+  
+  height: 280px;
+  width: 620px;
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 60px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  border: none;
+  display: inline;
+  float: left;
+} 
+
+.glassbg5{
+  
+  height: 480px;
+  width: 620px;
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 60px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  border: none;
+  display: inline;
+  float: left;
+} 
 
 .App-header {
-  background-color: #282c34;
+ 
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #f5b921;
 }
+
+.btn {
+  cursor: pointer;
+  height: 50px;
+  width: 85px;
+  background-color: #f5b921;
+  border: none;
+  border-radius: 10px;
+  backdrop-filter: blur(18.5px);
+  -webkit-backdrop-filter: blur(18.5px);
+  padding: auto;
+  margin: 10px;
+
+  color: black;
+  font-size:medium;
+  font-weight:900;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.btn1 {
+  cursor: pointer;
+  height: 50px;
+  width: 80px;
+  background-color: #f5b921;
+  border: none;
+  border-radius: 10px;
+  
+  backdrop-filter: blur(18.5px);
+  -webkit-backdrop-filter: blur(18.5px);  
+  padding: auto;
+  margin: 10px;
+  
+  color: black;
+  font-size:medium;
+  font-weight:900;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.btn2 {
+
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  background-color: #f5b921;
+  border: none;
+  border-radius: 10px;
+ backdrop-filter: blur(18.5px);
+  -webkit-backdrop-filter: blur(18.5px);  
+  padding-right: 0px;
+  padding-left: 20px;
+  margin: 15px;
+  color: black;
+  font-size:medium;
+  font-weight:900;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+
+
+.connectbtn{
+  
+  margin-bottom: 30px;
+  margin-left: 240px;
+
+} 
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  /* content: '\00bb'; */
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn1 span:after {
+  /* content: '\00bb'; */
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn1:hover span {
+  padding-right: 25px;
+}
+
+.btn1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn2 span:after {
+  /* content: '\00bb'; */
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn2:hover span {
+  padding-right: 25px;
+}
+
+.btn2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
 
 .App-link {
   color: #61dafb;
 }
+
+.navbar{
+  display:grid;
+  align-items:center;
+}
+
+.inp_f{
+  font-size: large;
+  color: #f5b921;
+  /* border: none; */
+  border-radius: 10px;
+  /* box-shadow: 0 3px 20px rgba(4, 95, 125, 0.6); */
+  box-shadow: #f5b921;
+  margin: 10px;
+  background-color: transparent;
+  border-color:#f5b921; 
+
+}
+
+.inp_ff{
+  font-size: large;
+  color: #f5b921;
+  /* border: none; */
+  border-radius: 10px;
+  /* box-shadow: 0 3px 20px rgba(4, 95, 125, 0.6); */
+  box-shadow: #f5b921;
+  margin: 10px;
+  background-color: transparent;
+  border-color:#f5b921; 
+
+}
+
+.label{
+  padding-top: 10px;
+
+}
+
 
 @keyframes App-logo-spin {
   from {
